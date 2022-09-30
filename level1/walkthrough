@@ -1,5 +1,3 @@
-perl -e 'print "A"x72 . "\x28\xf7\xff\xbf\x4a\x84\x04\x08";' > input
-
 We found a binary in the home directory executed as level2.
 
 We can decompile it. So we see the ``run()`` function that is never called.
